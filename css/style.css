@@ -21,12 +21,11 @@ body {
 
 .wrapper {
     display: flex;
-    flex-direction: column-reverse;
     height: 100vh;
+    flex-direction: column;
 }
 
 nav > * {
-    width: calc(100% / 3);
     font-size: 1.5rem;
     color: white;
 }
@@ -34,10 +33,11 @@ nav > * {
 
 nav {
     display: flex;
+    justify-content: space-between;
     min-height: 80px;
     background-color:rgb(34, 34, 34);
     align-items: center;
-    padding: 0 10px;
+    padding-left: 10px;
 }
 
 
@@ -53,10 +53,8 @@ nav {
 }
 
 
-
  .media-cmd > .multimedia, .arrow-up {
     display: flex;
-    flex-direction: column;
     list-style-type:none;
     margin-right: 10px;
 }
@@ -64,7 +62,7 @@ nav {
 
 .arrow-up button i{
     font-size: 0.6rem;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 button  {
@@ -82,23 +80,38 @@ p {
 
 .action-btn {
     display: flex;
+    justify-content: space-around;
 }
 
 .action-btn ul {
     display: flex;
+    justify-content: space-around;
     list-style-type: none;
 }
 
 .principals-cmd {
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
 .exit-btn {
     display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background-color: rgb(74, 74, 74);
+
+
 }
 
 .exit p {
     color: red;
+    padding: 0 15px;
+   
+   
+}
+
+
+#green {
+    color: rgb(76, 199, 0);
 }
 
 /****** / nav *******/
