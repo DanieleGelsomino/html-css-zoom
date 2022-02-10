@@ -10,4 +10,113 @@ body {
     font-family: sans-serif;
 }
 
-/* generics */
+/*  / generics */
+
+
+/* content */
+
+/****** nav *******/
+
+/* applico regole flexbox */
+
+.wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+}
+
+nav > * {
+    width: calc(100% / 3);
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    min-height: 80px;
+    background-color:rgb(34, 34, 34);
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.container-wrap {
+    display: flex;
+}
+
+.media-cmd {
+    display: flex;
+    background-color:rgb(34, 34, 34);
+
+
+}
+
+
+
+ .media-cmd > .multimedia, .arrow-up {
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    margin-right: 10px;
+}
+
+
+.arrow-up button i{
+    font-size: 0.6rem;
+    margin-right: 10px;
+}
+
+button  {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+.action-btn {
+    display: flex;
+}
+
+.action-btn ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.principals-cmd {
+    margin-right: 30px;
+}
+
+.exit-btn {
+    display: flex;
+}
+
+.exit p {
+    color: red;
+}
+
+/****** / nav *******/
+
+
+
+/******* main *******/
+
+
+main {
+    display: flex;
+    flex-grow: 1;
+    background-color:black;
+}
+
+
+
+/******* / main *******/
+
+
+/* / content */
