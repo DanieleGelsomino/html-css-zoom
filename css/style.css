@@ -1,18 +1,17 @@
 /* generics */
 
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    font-family: sans-serif;
-    /* height: 100vh; */
+  font-family: sans-serif;
+  /* height: 100vh; */
 }
 
 /*  / generics */
-
 
 /* content */
 
@@ -21,171 +20,141 @@ body {
 /* applico regole flexbox */
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 nav > * {
-    font-size: 1.5rem;
-    color: white;
+  font-size: 1.5rem;
+  color: white;
 }
-
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    min-height: 80px;
-    background-color:rgb(34, 34, 34);
-    align-items: center;
-    padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80px;
+  background-color: rgb(34, 34, 34);
+  align-items: center;
+  padding-left: 10px;
 }
-
-
-
 
 .media-cmd {
-    display: flex;
-    background-color:rgb(34, 34, 34);
-
-
+  display: flex;
+  background-color: rgb(34, 34, 34);
 }
 
-
- .media-cmd > .multimedia, .arrow-up {
-    display: flex;
-    list-style-type:none;
-    margin-right: 10px;
+.media-cmd > .multimedia,
+.arrow-up {
+  display: flex;
+  list-style-type: none;
+  margin-right: 10px;
 }
 
-
-
-.arrow-up button i{
-    font-size: 0.6rem;
-    margin-right: 15px;
+.arrow-up button i {
+  font-size: 0.6rem;
+  margin-right: 15px;
 }
 
-button  {
-    background-color: transparent;
-    border: none;
-    font-size: 1.5rem;
-    color: white;
-    cursor: pointer;
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
 }
 
 p {
-    font-size: 0.7rem;
-    margin-top: 5px;
+  font-size: 0.7rem;
+  margin-top: 5px;
 }
 
 .action-btn {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .action-btn ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 .principals-cmd {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .left-space {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .exit-btn {
-    display: flex;
-    justify-content: flex-end;
-    height: 80px;
-    background-color: rgb(74, 74, 74);
-
-
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: rgb(74, 74, 74);
 }
 
 .exit p {
-    color: red;
-    padding: 0 15px;
-   
-   
+  color: red;
+  padding: 0 15px;
 }
 
-
 #green {
-    color: rgb(76, 199, 0);
+  color: rgb(76, 199, 0);
 }
 
 /****** / nav *******/
 
-
-
 /******* main *******/
 
-
 .icons {
-position: absolute;
-top: 2px;
-right: 5px;
-
+  position: absolute;
+  top: 2px;
+  right: 5px;
 }
 
 .icon-view {
-    font-size: 0.6rem;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    padding: 3px ;
-
+  font-size: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 3px;
 }
 
-
 main {
-    display: flex;
-    flex-grow: 1;
-    background-color:black;
-    position: relative;
-
+  display: flex;
+  flex-grow: 1;
+  background-color: black;
+  position: relative;
 }
 
 .container-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px 50px 10px 50px;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 50px 10px 50px;
 }
 
 .img-wrapped {
-    background-image: url(https://i.pinimg.com/200x150/ce/6b/d1/ce6bd1d2626cb4a983e9359956fc6afd.jpg);
-    width: 200px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 5px;
-    position: relative;
-
-
-
-
+  background-image: url(https://i.pinimg.com/200x150/ce/6b/d1/ce6bd1d2626cb4a983e9359956fc6afd.jpg);
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  position: relative;
 }
 
 .username {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    color: white;
-    font-size: 0.7rem;
-    padding: 5px 3px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  color: white;
+  font-size: 0.7rem;
+  padding: 5px 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-
-
-
 /******* / main *******/
-
 
 /* / content */
