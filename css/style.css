@@ -8,6 +8,7 @@
 
 body {
     font-family: sans-serif;
+    /* height: 100vh; */
 }
 
 /*  / generics */
@@ -21,7 +22,6 @@ body {
 
 .wrapper {
     display: flex;
-    height: 100vh;
     flex-direction: column;
 }
 
@@ -41,9 +41,7 @@ nav {
 }
 
 
-.container-wrap {
-    display: flex;
-}
+
 
 .media-cmd {
     display: flex;
@@ -58,6 +56,7 @@ nav {
     list-style-type:none;
     margin-right: 10px;
 }
+
 
 
 .arrow-up button i{
@@ -81,6 +80,7 @@ p {
 .action-btn {
     display: flex;
     justify-content: space-around;
+
 }
 
 .action-btn ul {
@@ -91,6 +91,10 @@ p {
 
 .principals-cmd {
     margin-right: 15px;
+}
+
+.left-space {
+    margin-left: 15px;
 }
 
 .exit-btn {
@@ -121,11 +125,63 @@ p {
 /******* main *******/
 
 
+.icons {
+position: absolute;
+top: 2px;
+right: 5px;
+
+}
+
+.icon-view {
+    font-size: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 3px ;
+
+}
+
+
 main {
     display: flex;
     flex-grow: 1;
     background-color:black;
+    position: relative;
+
 }
+
+.container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 50px 10px 50px;
+
+}
+
+.img-wrapped {
+    background-image: url(https://i.pinimg.com/200x150/ce/6b/d1/ce6bd1d2626cb4a983e9359956fc6afd.jpg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    position: relative;
+
+
+
+
+}
+
+.username {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 
 
