@@ -1,0 +1,143 @@
+/* generics */
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  /* height: 100vh; */
+}
+
+/* content */
+
+.fullpage {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* SEZIONE HEADER */
+
+header {
+  height: 80px;
+  background-color: black;
+}
+
+.icon-view {
+  text-align: right;
+  margin: 5px 5px;
+}
+
+.icon-view button {
+  border-radius: 5px;
+  border: none;
+  padding: 3px 5px;
+  font-size: 0.7rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+/* / SEZIONE HEADER */
+
+/* SEZIONE MAIN */
+
+main {
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: black;
+}
+
+.container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+
+.container-wrap > * {
+  position: relative;
+  border: 3px solid black;
+}
+
+.profile-name {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-name {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  padding: 3px 5px;
+  font-size: 0.7rem;
+}
+
+/* / SEZIONE MAIN */
+
+/* SEZIONE FOOTER */
+
+footer {
+  flex-basis: 80px;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+}
+
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.media-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.media-control button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.media-control i {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+.green {
+  color: rgb(77, 198, 0);
+}
+
+.exit-btn {
+  display: flex;
+  align-items: center;
+}
+
+.exit-btn button {
+  color: red;
+  background-color: rgb(74, 74, 74);
+  border: none;
+  height: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* / SEZIONE FOOTER */

@@ -125,6 +125,7 @@ main {
   flex-grow: 1;
   background-color: black;
   position: relative;
+  overflow-y: auto;
 }
 
 .container-wrap {
